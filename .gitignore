@@ -1,0 +1,70 @@
+# Root level gitignore for Event Registration Management System
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+*.log
+logs/
+
+# Environment variables (IMPORTANT - Never commit these)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backup files
+*.bak
+*.backup
+*.old
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Documentation build
+docs/_build/
+
+# Database files (if using local database files)
+*.db
+*.sqlite
+*.sqlite3
+
+# SSL certificates and keys
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.keystore
+
+# Configuration files with sensitive data
+config/database.yml
+config/secrets.yml
+
+# IDE specific files
+*.swp
+*.swo
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
